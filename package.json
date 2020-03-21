@@ -1,0 +1,25 @@
+{
+    "name": "projectB",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danqkhaw72/example-webpack.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/danqkhaw72/example-webpack/issues"
+    },
+    "homepage": "https://github.com/danqkhaw72/example-webpack#readme",
+    "devDependencies": {
+        "webpack": "^4.42.0",
+        "webpack-cli": "^3.3.11"
+    }
+}
