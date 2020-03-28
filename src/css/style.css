@@ -233,25 +233,66 @@ p {
 
 /* Section: Contact */
 
+
+/* contact */
+
 #contact {
-    display: flex;
+    background: url('../images/contact-title.jpg') no-repeat center center/cover;
+    height: 80vh;
+    color: #fff;
 }
 
-#contact .map,
-#contact .contact-form {
-    flex: 1;
+.input {
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    transition: all .8s;
 }
 
-#contact .contact-form .form-group {
-    margin: 0.75rem;
+.input:focus {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    border-bottom: 2px solid #f5593d;
 }
 
-#contact .contact-form label {
+.submit-button {
+    background: #f5593d;
+    color: #eee;
+    transition: all .3s;
+}
+
+.submit-button:hover {
+    background: #f9793d;
+    transform: translateY(-3px);
+}
+
+.label {
+    color: #777;
     display: block;
+    margin-top: -70px;
+    margin-left: 4px;
+    font-size: 13px;
+    transition: all .3s;
 }
 
-#contact .contact-form input,
-#contact .contact-form textarea {
-    width: 100%;
-    padding: 0.5rem;
+.input:placeholder-shown+.label {
+    transform: translate(20px, 20px);
+    opacity: 0;
+    visibility: hidden;
 }
+
+@media (max-width: 992px) {
+    .contact {
+        background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, .95));
+    }
+    .contact-form {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+/* end of contact */
