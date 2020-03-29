@@ -10,10 +10,6 @@ body {
     line-height: 1.4;
 }
 
-a {
-    text-decoration: none;
-}
-
 p {
     margin: 0.75rem 0;
 }
@@ -26,19 +22,6 @@ p {
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-primary {
-    color: #93cb52;
-}
-
-.bg-light {
-    background: #f4f4f4;
-    color: #333;
 }
 
 .bg-dark {
@@ -67,27 +50,6 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.lead {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-}
-
-.py-1 {
-    padding: 1.5rem 0;
-}
-
-.py-2 {
-    padding: 1.5rem 0;
-}
-
-.py-3 {
-    padding: 1.5rem 0;
-}
-
-.p-1 {
-    padding: 1.5rem;
-}
-
 .p-2 {
     padding: 2rem;
 }
@@ -96,32 +58,9 @@ p {
     padding: 3rem;
 }
 
-.btn {
-    display: inline-block;
-    color: #fff;
-    background: #93bc52;
-    padding: 0.5rem 2rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background: #fff;
-}
-
 .btn-dark {
     background: #333;
     color: #fff;
-}
-
-.list {
-    margin: 0.5rem 0;
-    list-style: none;
-}
-
-.list li {
-    padding: 0.5rem 0;
-    border-bottom: #444 dotted 1px;
 }
 
 
@@ -176,27 +115,6 @@ p {
 }
 
 
-/* Section: What We Do */
-
-#what .items {
-    display: flex;
-    padding: 1rem;
-}
-
-#what .items .item {
-    flex: 1;
-    text-align: center;
-    padding: 1rem;
-}
-
-#what .items .item i {
-    background: #93cb52;
-    padding: 1rem;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-}
-
-
 /* Section: Who We Are */
 
 #who {
@@ -215,19 +133,6 @@ p {
     border-radius: 0.25rem;
     max-width: 100%;
     height: auto;
-}
-
-
-/* Clients */
-
-#clients .items {
-    display: flex;
-}
-
-#clients .items img {
-    display: block;
-    margin: auto;
-    width: 60%;
 }
 
 
